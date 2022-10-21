@@ -1,110 +1,78 @@
 html {
   font-size: 15px;
 }
-
 body {
   font-family: "Alata", sans-serif;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
-
 main {
   margin: 0 auto;
   width: 90rem;
 }
-
 header {
   margin: 0 auto;
   width: 90rem;
   height: 43.2rem;
   background-image: url(./images/desktop/image-hero.jpg);
   background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.5);
-  /* use rgba for fine adjustments */
+  background-color: rgb(0, 0, 0, 0.5);
   background-blend-mode: multiply;
 }
-
 .topnav {
   margin: 0 auto;
   width: 87%;
   padding-top: 3.9rem;
   height: 2.9rem;
   font-weight: 400;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
-
 .topnav .icon {
   display: none;
 }
-
 .close {
   display: none;
   float: right;
 }
-
 .nav-item {
   text-decoration: none;
   color: white;
 }
-
 .topnav .nav-item {
   margin-left: 2rem;
 }
-
 .nav-item:hover {
   border-bottom: 1px solid white;
 }
-
 .mark-title {
   width: 43.3rem;
   margin-left: 11rem;
   margin-top: 8rem;
-  border: 1px solid white;
+  border: white solid 1px;
   height: 18.8rem;
 }
-
 .title {
   font-family: "Josefin Sans", sans-serif;
   font-size: 5rem;
   color: white;
   text-transform: uppercase;
-  -webkit-margin-before: 2.9rem;
-          margin-block-start: 2.9rem;
-  -webkit-margin-after: 0;
-          margin-block-end: 0;
-  -webkit-margin-start: 2.66rem;
-          margin-inline-start: 2.66rem;
-  -webkit-margin-end: 0;
-          margin-inline-end: 0;
+  margin-block-start: 2.9rem;
+  margin-block-end: 0;
+  margin-inline-start: 2.66rem;
+  margin-inline-end: 0;
   line-height: 0.94;
   letter-spacing: -1.8px;
 }
-
 .vr {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  flex-wrap: nowrap;
+  align-items: flex-end;
 }
-
 .vr-left {
   margin-top: 11rem;
   margin-left: 11rem;
   z-index: 1;
 }
-
 .vr-right {
   background-color: white;
   z-index: 2;
@@ -113,53 +81,37 @@ header {
   margin-left: -9.7rem;
   padding-left: 5rem;
 }
-
 .vr-right .subtitle {
   text-transform: uppercase;
   font-size: 3.3rem;
   font-family: "Josefin Sans", sans-serif;
-  -webkit-margin-before: 6.2rem;
-          margin-block-start: 6.2rem;
+  margin-block-start: 6.2rem;
   line-height: 3.3rem;
   letter-spacing: -0.5px;
-  -webkit-margin-after: 1.6rem;
-          margin-block-end: 1.6rem;
+  margin-block-end: 1.6rem;
 }
-
 .description {
   margin-left: 0.3rem;
   line-height: 1.7rem;
   color: dimgray;
 }
-
 .creation {
   margin: 10.84rem;
 }
-
 .creation-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
-
 .creation-header .subtitle {
   text-transform: uppercase;
   font-size: 3.28rem;
   font-family: "Josefin Sans", sans-serif;
-  -webkit-margin-before: 0.8rem;
-          margin-block-start: 0.8rem;
+  margin-block-start: 0.8rem;
   letter-spacing: -0.5px;
-  -webkit-margin-after: 1.6rem;
-          margin-block-end: 1.6rem;
+  margin-block-end: 1.6rem;
   color: black;
 }
-
 button {
   width: 10.5rem;
   height: 3rem;
@@ -170,145 +122,80 @@ button {
   letter-spacing: 5px;
   cursor: pointer;
 }
-
 button:hover {
   background-color: black;
   color: white;
 }
-
 .mobile-button {
   display: none;
 }
-
 .gallery {
   margin-top: 3.3rem;
-  display: -ms-grid;
   display: grid;
-      grid-template-areas: "earth arcade soccer grid" "above pocket curiosity fisheye";
-  gap: 1.9rem;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
-  -ms-grid-rows: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
-  background-color: white;
-}
-
-.content {
-  height: 30.1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  border: 1px solid white;
-}
-
-.content h3 {
-  margin-left: 2.9rem;
-  margin-right: 1.8rem;
-  text-transform: uppercase;
-  color: white;
-  font-size: 2.1rem;
-  font-weight: 300;
-  font-family: "Josefin Sans", sans-serif;
-  -webkit-margin-before: 1rem;
-          margin-block-start: 1rem;
-  -webkit-margin-after: 2rem;
-          margin-block-end: 2rem;
+  grid-template-areas: "earth arcade soccer grid";
+  margin-block-start: 1rem;
+  margin-block-end: 2rem;
   line-height: 2.2rem;
 }
-
 .earth {
   background-image: url(./images/desktop/image-deep-earth.jpg);
 }
-
 .arcade {
   background-image: url(./images/desktop/image-night-arcade.jpg);
 }
-
 .soccer {
   background-image: url(./images/desktop/image-soccer-team.jpg);
 }
-
 .grid {
   background-image: url(./images/desktop/image-grid.jpg);
 }
-
 .above {
   background-image: url(./images/desktop/image-from-above.jpg);
 }
-
 .pocket {
   background-image: url(./images/desktop/image-pocket-borealis.jpg);
 }
-
 .curiosity {
   background-image: url(./images/desktop/image-curiosity.jpg);
 }
-
 .fisheye {
   background-image: url(./images/desktop/image-fisheye.jpg);
 }
-
 footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   width: 1440px;
   margin: 12.3rem auto;
   height: 10.5rem;
   color: white;
   background-color: black;
 }
-
 .footer-left {
   margin-left: 11rem;
   width: 25.3rem;
 }
-
 .footer-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 1.7rem;
 }
-
 .footer-left img {
   width: 9.5rem;
   height: auto;
 }
-
 .footer-right {
   width: 25rem;
   text-align: right;
   margin-right: 11rem;
   height: 5rem;
 }
-
 .footer-right img {
   margin-left: 0.8rem;
 }
-
 .rights {
-  -webkit-margin-before: 1.8rem;
-          margin-block-start: 1.8rem;
-  -webkit-margin-after: 0;
-          margin-block-end: 0;
+  margin-block-start: 1.8rem;
+  margin-block-end: 0;
 }
 /*# sourceMappingURL=style.css.map */
