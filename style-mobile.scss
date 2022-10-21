@@ -1,5 +1,315 @@
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1273px) {
+  header {
+    width: 100%;
+    height: 81.25rem;
+    background-image: url(./images/mobile/image-hero.jpg);
+    background-size: cover;
+  }
+
+  .topnav {
+    padding-top: 5.5rem;
+    margin: 0 auto;
+    width: 87%;
+  }
+
+  .topnav .logo {
+    width: 19rem;
+  }
+
+  .topnav .icon {
+    display: block;
+    width: 3.3rem;
+  }
+
+  .topnav .navbar {
+    display: none;
+  }
+
+  .mark-title {
+    width: 87%;
+    margin: 21.6rem auto;
+    border: 4px solid hsl(0, 0%, 100%);
+    height: 25.9rem;
+  }
+
+  .title {
+    margin-block-start: 3.5rem;
+    margin-inline-start: 2.8rem;
+    font-size: 5.54rem;
+    line-height: 1.2;
+    width: 100%;
+  }
+
   main {
-    width: 375px;
+    width: 100vw;
+  }
+  .vr {
+    flex-direction: column;
+    margin: 13rem auto;
+    width: 87%;
+    height: 66.67rem;
+  }
+
+  .vr-left {
+    margin: 0 auto;
+  }
+
+  .vr-left img {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+  }
+
+  .vr-right {
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+  }
+  .vr-right .subtitle {
+    font-size: 4.2rem;
+    line-height: 4.4rem;
+    margin-block-start: 6rem;
+    letter-spacing: 0.8px;
+  }
+
+  .description {
+    margin: 2rem auto;
+    font-size: 2rem;
+    line-height: 3.33rem;
+    width: 85%;
+  }
+
+  .creation {
+    width: 87%;
+    margin: 12rem auto;
+    margin-bottom: 6rem;
+  }
+
+  .creation-header {
+    justify-content: center;
+  }
+
+  .creation-header .subtitle {
+    font-size: 4.3rem;
+    margin-block-start: 2.8rem;
+    letter-spacing: 0.1px;
+    margin-block-end: 1.6rem;
+  }
+
+  .creation-header .desktop-button {
+    display: none;
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-top: 3.8rem;
+  }
+
+  .content {
+    margin: 0.68rem 0;
+    height: 15.8rem;
+    width: 87%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .earth {
+    background-image: url(./images/mobile/image-deep-earth.jpg);
+  }
+
+  .arcade {
+    background-image: url(./images/mobile/image-night-arcade.jpg);
+  }
+  .soccer {
+    background-image: url(./images/mobile/image-soccer-team.jpg);
+  }
+  .grid {
+    background-image: url(./images/mobile/image-grid.jpg);
+  }
+  .above {
+    background-image: url(./images/mobile/image-from-above.jpg);
+  }
+  .pocket {
+    background-image: url(./images/mobile/image-pocket-borealis.jpg);
+  }
+  .curiosity {
+    background-image: url(./images/mobile/image-curiosity.jpg);
+  }
+  .fisheye {
+    background-image: url(./images/mobile/image-fisheye.jpg);
+  }
+
+  .mobile-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 5.3rem;
+    width: 21rem;
+    font-size: 2rem;
+    margin-bottom: 6rem;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .footer-left {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40rem;
+    margin-left: 0;
+  }
+
+  .footer-left img {
+    width: 19rem;
+    height: 3rem;
+    margin-top: 4.4rem;
+  }
+  .footer-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-left a {
+    margin-top: 3.3rem;
+    font-size: 1.9rem;
+    font-weight: 400;
+  }
+
+  .footer-right {
+    width: 73%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 3.3rem;
+    height: 10rem;
+  }
+
+  .footer-right img {
+    width: 3.4rem;
+    height: 3.4rem;
+    margin-left: 0;
+    padding: 0 1rem;
+  }
+
+  .rights {
+    font-size: 2rem;
+    margin-block-start: 1rem;
+  }
+
+  .topnav.responsive {
+    height: 100%;
+    width: 100%;
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: black;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  }
+
+  .topnav.responsive .logo {
+    display: block;
+    z-index: 4;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+  }
+
+  .topnav .icon {
+    float: right;
+    display: block;
+  }
+
+  .topnav.responsive .icon {
+    display: none;
+  }
+
+  .topnav.responsive .close {
+    display: block;
+    z-index: 4;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+  }
+
+  .topnav.responsive .menu-close {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .topnav.responsive .navbar {
+    display: block;
+    z-index: 4;
+    position: absolute;
+    top: 15%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: left;
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+    margin-left: 2rem;
+  }
+
+  .topnav.responsive .nav-item {
+    z-index: 4;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+    display: block; /* Display block instead of inline */
+  }
+  .topnav.responsive .nav-item:hover {
+    border: none;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  html {
+    font-size: 14px;
+  }
+  .title {
+    line-height: 1;
+  }
+}
+
+@media screen and (max-width: 955px) {
+  html {
+    font-size: 11px;
+  }
+  .title {
+    line-height: 1;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 7.5px;
+  }
+  .rights {
+    font-size: 1.5rem;
+    margin-block-start: 1rem;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  html {
+    font-size: 6px;
   }
 }
